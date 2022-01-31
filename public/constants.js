@@ -1,0 +1,1 @@
+export const maxNuberOfPokemonsToFetch = 1118;

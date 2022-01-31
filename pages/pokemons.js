@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import LandingPage from "../components/LandingPage/LandingPage";
 
+import {PokemonList} from "../components/PokemonList/PokemonList";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Pokemon app" />
       </Head>
 
-      <LandingPage />
+      <PokemonList />
     </div>
   );
 }
